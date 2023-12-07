@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Balsamiq sans";
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.usercard{
+    height: 400px;
+    width: 800px;
+    border: 3px solid lightgray;
+}
+.top{
+    background-color: #1AA2B8;
+    height: 100px;
+}
+.bottom{
+    /* background-color: blueviolet; */
+    height: 300px;
+    margin-left: 20px;
+    padding-top: 55px;
+}
+h1{
+    /* margin: 55px 0px; */
+    border: 30px;
+}
+.user-circle{
+    height: 100px;
+    /* padding: 50px; */
+    position: relative;
+    top: 50px;
+    left: 20px;
+    border: double white;
+    border-radius: 50%;
+}
+.map-marker{
+    height: 30px;
+    /* margin-bottom: 50px; */
+    border: 60px;
+}
+h2{
+    font-size: 20px;
+    /* padding: 25px 5px; */
+    margin: 10px;
+}
+.gear-icon{
+    height: 25px;
+    padding-top: 30px;
+    /* align-items:start; */
+}
+p{
+    padding-top: 15px;
+}
+.location{
+    display: flex;
+    align-items: left;
+}
+.edit-profile{
+    display: flex;
+}
+h3{
+    padding: 32px 5px;
+}
+
